@@ -1,0 +1,154 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(255, 255, 255, .8);
+  border: .05rem solid #fff;
+}
+
+.masthead-brand{
+    background-color: black;
+    width: 125px;
+    border-radius: 20px;
+    float: left;
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+  background: url("../img/background.jpg");
+
+  height: 100%;
+  background-color: #333;
+}
+body {
+  display: flex;
+  color: #fff;
+}
+.texto2{
+    margin-bottom: 100px;
+}
+.cover-heading1{
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 25px;
+    background-color: rgba(105, 106, 104, 0.2);
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+}
+.texto{
+ margin-bottom: 75px;
+}
+.cover-heading2{
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    background-color: rgba(105, 106, 104, 0.2);
+    border-radius: 20px;
+    height: 40px;
+    width: 450px;
+}
+.cover-heading3{
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 25px;
+    background-color: rgba(105, 106, 104, 0.2);
+    border-radius: 20px;
+    height: 40px;
+    width: 450px;
+}
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+.inner{
+    float: left;
+}
+.texto2{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, .2);
+    margin-left: 400px;
+    width: 380px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+.buttonun{
+    font-size: 20px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.form-group{
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+.form-check-input{
+    margin-right: 25px;
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}

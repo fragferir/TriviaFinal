@@ -1,0 +1,12 @@
+header.masthead.mb-auto
+  div.inner  
+    h3.masthead-brand TRIVIA!
+    nav.nav.nav-masthead.justify-content-center
+      a.nav-link(href='/') Inicio
+      a.nav-link(href='/question') Crea tu propia pregunta!
+      if (!user)
+        a.nav-link(href='/login') Ingresar
+        a.nav-link(href='/register') Registrarse
+      if (user)
+        a.nav-link.disabled(href='') ya estas logeado #{user.firstName}!!
+        a.nav-link(href='/logout') Desloguearse
